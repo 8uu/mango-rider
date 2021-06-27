@@ -191,7 +191,7 @@ class HomePage extends StatelessWidget {
                       Text("3", style: TextStyle(color: Colors.white)),
                   elevation: 2,
                   shape: BadgeShape.circle,
-                  position: BadgePosition.topRight(),
+                  position: BadgePosition.topEnd(),
                 ), //new Icon(Icons.inbox),
                 onTap: () {
                   Navigator.of(context).push(new MaterialPageRoute(
